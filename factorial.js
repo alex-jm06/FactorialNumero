@@ -3,11 +3,13 @@ function factorial(numero) {
 		throw new Error("El numero debe ser un entero no negativo");
 	}
 
-	if (numero === 0) {
-		return 1;
+	let resultado = 1;
+
+	for (let contador = 2; contador <= numero; contador++) {
+		resultado *= contador;
 	}
 
-	return numero * factorial(numero - 1);
+	return resultado;
 }
 
 console.log(factorial(5)); // 120
