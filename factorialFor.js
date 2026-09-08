@@ -16,3 +16,4 @@ console.log(factorial(5)); // 120
 console.log(factorial(10));
 console.log(factorial(20));
 console.log(factorial(30));
+console.log(factorial(70));
